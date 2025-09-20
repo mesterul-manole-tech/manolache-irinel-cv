@@ -1,1 +1,46 @@
+# Site settings
+title: "Irinel Manolache - CV & Resume"
+description: "Professional CV and Resume presentation page"
+author: "Irinel Manolache"
+email: "irinel.manolache96@gmail.com"
+url: "https://mesterul-manole-tech.github.io"
+baseurl: "/manolache-irinel-cv"
 
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Markdown processor
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files
+include:
+  - "*.pdf"
+
+# Theme (optional - GitHub Pages default)
+theme: minima
+
+# Navigation (if you want to add more pages later)
+header_pages:
+  - index.html
+
+# Social links (optional - add your profiles)
+# github_username: your-github-username
+# linkedin_username: your-linkedin-username
+
+# SEO settings
+lang: en
+locale: en_US
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
